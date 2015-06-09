@@ -5,7 +5,3 @@ target 'SimpleRdio' do
     pod "AFNetworking", '2.5.4'
     pod 'AFOAuth2Manager', '2.0.0'
 end
-
-target 'SimpleRdioTests' do
-
-end
