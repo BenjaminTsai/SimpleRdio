@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABF897411B2694FA00EE3C35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF897401B2694FA00EE3C35 /* AppDelegate.swift */; };
+		ABF897431B2694FA00EE3C35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF897421B2694FA00EE3C35 /* ViewController.swift */; };
+		ABF897461B2694FA00EE3C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF897441B2694FA00EE3C35 /* Main.storyboard */; };
+		ABF897481B2694FA00EE3C35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF897471B2694FA00EE3C35 /* Images.xcassets */; };
+		ABF8974B1B2694FA00EE3C35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF897491B2694FA00EE3C35 /* LaunchScreen.xib */; };
+		ABF897571B2694FA00EE3C35 /* SimpleRdioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF897561B2694FA00EE3C35 /* SimpleRdioTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABF897511B2694FA00EE3C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF897331B2694FA00EE3C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF8973A1B2694FA00EE3C35;
+			remoteInfo = SimpleRdio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABF8973B1B2694FA00EE3C35 /* SimpleRdio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRdio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF8973F1B2694FA00EE3C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF897401B2694FA00EE3C35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABF897421B2694FA00EE3C35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABF897451B2694FA00EE3C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF897471B2694FA00EE3C35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABF8974A1B2694FA00EE3C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABF897501B2694FA00EE3C35 /* SimpleRdioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRdioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF897551B2694FA00EE3C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF897561B2694FA00EE3C35 /* SimpleRdioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRdioTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF897381B2694FA00EE3C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF8974D1B2694FA00EE3C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF897321B2694FA00EE3C35 = {
+			isa = PBXGroup;
+			children = (
+				ABF8973D1B2694FA00EE3C35 /* SimpleRdio */,
+				ABF897531B2694FA00EE3C35 /* SimpleRdioTests */,
+				ABF8973C1B2694FA00EE3C35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF8973C1B2694FA00EE3C35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF8973B1B2694FA00EE3C35 /* SimpleRdio.app */,
+				ABF897501B2694FA00EE3C35 /* SimpleRdioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF8973D1B2694FA00EE3C35 /* SimpleRdio */ = {
+			isa = PBXGroup;
+			children = (
+				ABF897401B2694FA00EE3C35 /* AppDelegate.swift */,
+				ABF897421B2694FA00EE3C35 /* ViewController.swift */,
+				ABF897441B2694FA00EE3C35 /* Main.storyboard */,
+				ABF897471B2694FA00EE3C35 /* Images.xcassets */,
+				ABF897491B2694FA00EE3C35 /* LaunchScreen.xib */,
+				ABF8973E1B2694FA00EE3C35 /* Supporting Files */,
+			);
+			path = SimpleRdio;
+			sourceTree = "<group>";
+		};
+		ABF8973E1B2694FA00EE3C35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF8973F1B2694FA00EE3C35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABF897531B2694FA00EE3C35 /* SimpleRdioTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF897561B2694FA00EE3C35 /* SimpleRdioTests.swift */,
+				ABF897541B2694FA00EE3C35 /* Supporting Files */,
+			);
+			path = SimpleRdioTests;
+			sourceTree = "<group>";
+		};
+		ABF897541B2694FA00EE3C35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF897551B2694FA00EE3C35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF8973A1B2694FA00EE3C35 /* SimpleRdio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF8975A1B2694FA00EE3C35 /* Build configuration list for PBXNativeTarget "SimpleRdio" */;
+			buildPhases = (
+				ABF897371B2694FA00EE3C35 /* Sources */,
+				ABF897381B2694FA00EE3C35 /* Frameworks */,
+				ABF897391B2694FA00EE3C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRdio;
+			productName = SimpleRdio;
+			productReference = ABF8973B1B2694FA00EE3C35 /* SimpleRdio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABF8974F1B2694FA00EE3C35 /* SimpleRdioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF8975D1B2694FA00EE3C35 /* Build configuration list for PBXNativeTarget "SimpleRdioTests" */;
+			buildPhases = (
+				ABF8974C1B2694FA00EE3C35 /* Sources */,
+				ABF8974D1B2694FA00EE3C35 /* Frameworks */,
+				ABF8974E1B2694FA00EE3C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF897521B2694FA00EE3C35 /* PBXTargetDependency */,
+			);
+			name = SimpleRdioTests;
+			productName = SimpleRdioTests;
+			productReference = ABF897501B2694FA00EE3C35 /* SimpleRdioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF897331B2694FA00EE3C35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Benjamin Tsai";
+				TargetAttributes = {
+					ABF8973A1B2694FA00EE3C35 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					ABF8974F1B2694FA00EE3C35 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = ABF8973A1B2694FA00EE3C35;
+					};
+				};
+			};
+			buildConfigurationList = ABF897361B2694FA00EE3C35 /* Build configuration list for PBXProject "SimpleRdio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABF897321B2694FA00EE3C35;
+			productRefGroup = ABF8973C1B2694FA00EE3C35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF8973A1B2694FA00EE3C35 /* SimpleRdio */,
+				ABF8974F1B2694FA00EE3C35 /* SimpleRdioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF897391B2694FA00EE3C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF897461B2694FA00EE3C35 /* Main.storyboard in Resources */,
+				ABF8974B1B2694FA00EE3C35 /* LaunchScreen.xib in Resources */,
+				ABF897481B2694FA00EE3C35 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF8974E1B2694FA00EE3C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF897371B2694FA00EE3C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF897431B2694FA00EE3C35 /* ViewController.swift in Sources */,
+				ABF897411B2694FA00EE3C35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF8974C1B2694FA00EE3C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF897571B2694FA00EE3C35 /* SimpleRdioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABF897521B2694FA00EE3C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF8973A1B2694FA00EE3C35 /* SimpleRdio */;
+			targetProxy = ABF897511B2694FA00EE3C35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABF897441B2694FA00EE3C35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF897451B2694FA00EE3C35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABF897491B2694FA00EE3C35 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF8974A1B2694FA00EE3C35 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF897581B2694FA00EE3C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABF897591B2694FA00EE3C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF8975B1B2694FA00EE3C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleRdio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABF8975C1B2694FA00EE3C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleRdio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABF8975E1B2694FA00EE3C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleRdioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRdio.app/SimpleRdio";
+			};
+			name = Debug;
+		};
+		ABF8975F1B2694FA00EE3C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleRdioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRdio.app/SimpleRdio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF897361B2694FA00EE3C35 /* Build configuration list for PBXProject "SimpleRdio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF897581B2694FA00EE3C35 /* Debug */,
+				ABF897591B2694FA00EE3C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF8975A1B2694FA00EE3C35 /* Build configuration list for PBXNativeTarget "SimpleRdio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF8975B1B2694FA00EE3C35 /* Debug */,
+				ABF8975C1B2694FA00EE3C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABF8975D1B2694FA00EE3C35 /* Build configuration list for PBXNativeTarget "SimpleRdioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF8975E1B2694FA00EE3C35 /* Debug */,
+				ABF8975F1B2694FA00EE3C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF897331B2694FA00EE3C35 /* Project object */;
+}
