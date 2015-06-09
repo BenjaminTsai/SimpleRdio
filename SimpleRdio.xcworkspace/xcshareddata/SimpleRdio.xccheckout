@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>85FCE268-B94E-4608-8F72-7A30193B909B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SimpleRdio</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CBAFB1A93FFE2C3D7010ABE2025C958F93C9ACF8</key>
+		<string>github.com:BenjaminTsai/SimpleRdio.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SimpleRdio.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CBAFB1A93FFE2C3D7010ABE2025C958F93C9ACF8</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:BenjaminTsai/SimpleRdio.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CBAFB1A93FFE2C3D7010ABE2025C958F93C9ACF8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CBAFB1A93FFE2C3D7010ABE2025C958F93C9ACF8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SimpleRdio</string>
+		</dict>
+	</array>
+</dict>
+</plist>

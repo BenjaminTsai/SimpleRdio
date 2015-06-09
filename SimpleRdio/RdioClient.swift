@@ -10,13 +10,20 @@ import UIKit
 
 class RdioClient: RdioDelegate {
     
-    private var rdio: Rdio!
+    var rdio: Rdio!
 
-    private let rdioClientId = ""
-    private let rdioClientSecret = ""
+    // Just here to facilitate testing
+    private let rdioParam1 = "nwtfn7khgrem3pa4a5xp7dw654"
+    private let rdioParam2 = "GVA2ujZJ0jvOR0nh9YDSDQ"
     
     init() {
-        rdio = Rdio(clientId: rdioClientId, andSecret: rdioClientSecret, delegate: self)
+        NSLog("RdioClient init")
+        rdio = Rdio(clientId: rdioParam1, andSecret: rdioParam2, delegate: self)
+        rdio.logout()
+    }
+    
+    deinit {
+        NSLog("RdioClient deinit")
     }
     
     func login(vc: UIViewController) {
