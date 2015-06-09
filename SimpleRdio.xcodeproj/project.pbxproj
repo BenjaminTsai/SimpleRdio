@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0FFD221B26964D005190F5 /* Rdio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0FFD211B26964D005190F5 /* Rdio.framework */; };
+		AB0FFD241B26966D005190F5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0FFD231B26966D005190F5 /* AudioToolbox.framework */; };
+		AB0FFD261B269673005190F5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0FFD251B269673005190F5 /* CFNetwork.framework */; };
+		AB0FFD281B26967A005190F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0FFD271B26967A005190F5 /* CoreGraphics.framework */; };
+		AB0FFD2A1B269683005190F5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0FFD291B269683005190F5 /* CoreMedia.framework */; };
+		AB0FFD2C1B26969D005190F5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0FFD2B1B26969D005190F5 /* Security.framework */; };
+		AB0FFD2E1B2696A4005190F5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0FFD2D1B2696A4005190F5 /* SystemConfiguration.framework */; };
+		AB89D8491B269B150031FF22 /* RdioClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89D8481B269B150031FF22 /* RdioClient.swift */; };
 		ABF897411B2694FA00EE3C35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF897401B2694FA00EE3C35 /* AppDelegate.swift */; };
 		ABF897431B2694FA00EE3C35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF897421B2694FA00EE3C35 /* ViewController.swift */; };
 		ABF897461B2694FA00EE3C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF897441B2694FA00EE3C35 /* Main.storyboard */; };
 		ABF897481B2694FA00EE3C35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF897471B2694FA00EE3C35 /* Images.xcassets */; };
 		ABF8974B1B2694FA00EE3C35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF897491B2694FA00EE3C35 /* LaunchScreen.xib */; };
 		ABF897571B2694FA00EE3C35 /* SimpleRdioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF897561B2694FA00EE3C35 /* SimpleRdioTests.swift */; };
+		B0E98FDCE0509B1567C7BE72 /* libPods-SimpleRdio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC2AB74154A9182B8A2B5D /* libPods-SimpleRdio.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C0190EFED0A4128DEC99A74 /* Pods-SimpleRdio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRdio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRdio/Pods-SimpleRdio.debug.xcconfig"; sourceTree = "<group>"; };
+		63BC2AB74154A9182B8A2B5D /* libPods-SimpleRdio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleRdio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0FFD211B26964D005190F5 /* Rdio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rdio.framework; sourceTree = "<group>"; };
+		AB0FFD231B26966D005190F5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AB0FFD251B269673005190F5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AB0FFD271B26967A005190F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB0FFD291B269683005190F5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AB0FFD2B1B26969D005190F5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AB0FFD2D1B2696A4005190F5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AB89D8431B2697900031FF22 /* SimpleRdio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleRdio-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB89D8481B269B150031FF22 /* RdioClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RdioClient.swift; sourceTree = "<group>"; };
 		ABF8973B1B2694FA00EE3C35 /* SimpleRdio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRdio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF8973F1B2694FA00EE3C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABF897401B2694FA00EE3C35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +56,7 @@
 		ABF897501B2694FA00EE3C35 /* SimpleRdioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRdioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF897551B2694FA00EE3C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABF897561B2694FA00EE3C35 /* SimpleRdioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRdioTests.swift; sourceTree = "<group>"; };
+		C0B028456211A731631AE73D /* Pods-SimpleRdio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRdio.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRdio/Pods-SimpleRdio.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +64,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0FFD2E1B2696A4005190F5 /* SystemConfiguration.framework in Frameworks */,
+				AB0FFD2C1B26969D005190F5 /* Security.framework in Frameworks */,
+				AB0FFD2A1B269683005190F5 /* CoreMedia.framework in Frameworks */,
+				AB0FFD281B26967A005190F5 /* CoreGraphics.framework in Frameworks */,
+				AB0FFD261B269673005190F5 /* CFNetwork.framework in Frameworks */,
+				AB0FFD241B26966D005190F5 /* AudioToolbox.framework in Frameworks */,
+				AB0FFD221B26964D005190F5 /* Rdio.framework in Frameworks */,
+				B0E98FDCE0509B1567C7BE72 /* libPods-SimpleRdio.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +85,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A08B430E198D200293DB81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C0190EFED0A4128DEC99A74 /* Pods-SimpleRdio.debug.xcconfig */,
+				C0B028456211A731631AE73D /* Pods-SimpleRdio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74460EC1A9046E9A675EF40B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB0FFD2D1B2696A4005190F5 /* SystemConfiguration.framework */,
+				AB0FFD2B1B26969D005190F5 /* Security.framework */,
+				AB0FFD291B269683005190F5 /* CoreMedia.framework */,
+				AB0FFD271B26967A005190F5 /* CoreGraphics.framework */,
+				AB0FFD251B269673005190F5 /* CFNetwork.framework */,
+				AB0FFD231B26966D005190F5 /* AudioToolbox.framework */,
+				AB0FFD211B26964D005190F5 /* Rdio.framework */,
+				63BC2AB74154A9182B8A2B5D /* libPods-SimpleRdio.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABF897321B2694FA00EE3C35 = {
 			isa = PBXGroup;
 			children = (
 				ABF8973D1B2694FA00EE3C35 /* SimpleRdio */,
 				ABF897531B2694FA00EE3C35 /* SimpleRdioTests */,
 				ABF8973C1B2694FA00EE3C35 /* Products */,
+				05A08B430E198D200293DB81 /* Pods */,
+				74460EC1A9046E9A675EF40B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +138,8 @@
 				ABF897471B2694FA00EE3C35 /* Images.xcassets */,
 				ABF897491B2694FA00EE3C35 /* LaunchScreen.xib */,
 				ABF8973E1B2694FA00EE3C35 /* Supporting Files */,
+				AB89D8431B2697900031FF22 /* SimpleRdio-Bridging-Header.h */,
+				AB89D8481B269B150031FF22 /* RdioClient.swift */,
 			);
 			path = SimpleRdio;
 			sourceTree = "<group>";
@@ -119,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABF8975A1B2694FA00EE3C35 /* Build configuration list for PBXNativeTarget "SimpleRdio" */;
 			buildPhases = (
+				7AE3531FD4AB1736519BBA9B /* Check Pods Manifest.lock */,
 				ABF897371B2694FA00EE3C35 /* Sources */,
 				ABF897381B2694FA00EE3C35 /* Frameworks */,
 				ABF897391B2694FA00EE3C35 /* Resources */,
+				30B78BB5AA1310880403CCF4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,11 +266,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30B78BB5AA1310880403CCF4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRdio/Pods-SimpleRdio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AE3531FD4AB1736519BBA9B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABF897371B2694FA00EE3C35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB89D8491B269B150031FF22 /* RdioClient.swift in Sources */,
 				ABF897431B2694FA00EE3C35 /* ViewController.swift in Sources */,
 				ABF897411B2694FA00EE3C35 /* AppDelegate.swift in Sources */,
 			);
@@ -338,21 +431,104 @@
 		};
 		ABF8975B1B2694FA00EE3C35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0190EFED0A4128DEC99A74 /* Pods-SimpleRdio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SimpleRdio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Parse\"",
+					"-l\"Pods-SimpleRdio-AFNetworking\"",
+					"-l\"Pods-SimpleRdio-AFOAuth2Manager\"",
+					"-l\"Pods-SimpleRdio-Bolts\"",
+					"-l\"Pods-SimpleRdio-Parse\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleRdio/SimpleRdio-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		ABF8975C1B2694FA00EE3C35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B028456211A731631AE73D /* Pods-SimpleRdio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SimpleRdio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Parse\"",
+					"-l\"Pods-SimpleRdio-AFNetworking\"",
+					"-l\"Pods-SimpleRdio-AFOAuth2Manager\"",
+					"-l\"Pods-SimpleRdio-Bolts\"",
+					"-l\"Pods-SimpleRdio-Parse\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleRdio/SimpleRdio-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +585,7 @@
 				ABF8975C1B2694FA00EE3C35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABF8975D1B2694FA00EE3C35 /* Build configuration list for PBXNativeTarget "SimpleRdioTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +594,7 @@
 				ABF8975F1B2694FA00EE3C35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
