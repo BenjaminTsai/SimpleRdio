@@ -11,11 +11,17 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    private let rdioParam1 = "nwtfn7khgrem3pa4a5xp7dw654"
+    private let rdioParam2 = "GVA2ujZJ0jvOR0nh9YDSDQ"
+
     var window: UIWindow?
+    
+    lazy internal var rdioInstance: Rdio = {
+        return Rdio(clientId: self.rdioParam1, andSecret: self.rdioParam2, delegate: nil);
+    }()
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Initialize RdioClient's shared instance on startup
-        RdioClient.sharedInstance
         return true
     }
 
